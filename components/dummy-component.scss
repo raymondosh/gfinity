@@ -1,0 +1,13 @@
+.dummy-component {
+	&__header {
+		@apply font-bold text-5xl text-gray-700 my-5;
+	}
+
+	&__description {
+		@apply text-2xl text-gray-800;
+	}
+
+	&__sub {
+		@apply font-light text-base text-gray-700;
+	}
+}
